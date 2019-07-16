@@ -9,6 +9,8 @@ const Pet = props => {
     hero = media[0].small;
   }
 
+  const [_, setBlah] = useState('blah') //
+
   return (
     <Link to={`/details/${id}`} className="pet">
       <div className="image-container">
